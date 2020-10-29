@@ -1,5 +1,7 @@
 const tokenizer = require('./tokenizer');
 
+const KINDS = ['var', 'let', 'const'];
+
 const parser = (code) => {
     const tokens = tokenizer(code);
     const ast = {
@@ -7,7 +9,6 @@ const parser = (code) => {
         body: []
     };
     let current = 0;
-    const KINDS = ['var', 'let', 'const'];
 
     console.log('tokens:', JSON.stringify(tokens));
 
