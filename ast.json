@@ -1,0 +1,22 @@
+{
+    "type": "Program",
+    "body": [
+        {
+            "type": "VariableDeclaration",
+            "kind": "let",
+            "declarations": [
+                {
+                    "type": "VariableDeclarator",
+                    "id": {
+                        "type": "Identifier",
+                        "name": "ast"
+                    },
+                    "init": {
+                        "type": "Literal",
+                        "value": "is a tree"
+                    }
+                }
+            ]
+        }
+    ]
+}
